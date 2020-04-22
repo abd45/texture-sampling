@@ -1,0 +1,19 @@
+[package]
+name = "image-sampling"
+version = "0.1.0"
+authors = ["abd45 <abhi_2531@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+metal = "0.18.0"
+core-graphics = "0.19"
+image = "0.23.4"
+cty = "0.2.1"
+winit = "0.22"
+cocoa = "0.20"
+
+[dependencies.objc]
+version = "0.2.4"
+features = ["objc_exception"]
